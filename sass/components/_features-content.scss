@@ -40,7 +40,7 @@
 
 @each $features in antenna, clock, diagram, astronaut {
   .#{$features}::before {
-    background-image: url("../../images/#{$features}.svg");
+    background-image: url("../images/#{$features}.svg");
   }
 }
 
