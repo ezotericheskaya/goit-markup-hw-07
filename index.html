@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -154,7 +154,7 @@
                 width="270"
               />
               <div class="team-names">
-                <h3 class="features-tittle">Игорь Демьяненко</h3>
+                <h3 class="names-tittle">Игорь Демьяненко</h3>
                 <p class="text-team">Product Designer</p>
                 <ul class="team-social">
                   <li class="team-links">
@@ -196,7 +196,7 @@
                 width="270"
               />
               <div class="team-names">
-                <h3 class="features-tittle">Ольга Репина</h3>
+                <h3 class="names-tittle">Ольга Репина</h3>
                 <p class="text-team">Frontend Devoloper</p>
                 <ul class="team-social">
                   <li class="team-links">
@@ -238,7 +238,7 @@
                 width="270"
               />
               <div class="team-names">
-                <h3 class="features-tittle">Николай Тарасов</h3>
+                <h3 class="names-tittle">Николай Тарасов</h3>
                 <p class="text-team">Marketing</p>
                 <ul class="team-social">
                   <li class="team-links">
@@ -280,7 +280,7 @@
                 width="270"
               />
               <div class="team-names">
-                <h3 class="features-tittle">Михаил Ермаков</h3>
+                <h3 class="names-tittle">Михаил Ермаков</h3>
                 <p class="text-team">UI Designer</p>
                 <ul class="team-social">
                   <li class="team-links">
@@ -433,7 +433,13 @@
           <form class="footer-subscribe">
             <label class="footer-label" for="mail">
               <b class="subscribe">Подпишитесь на рассылку</b>
-              <input type="email" name="mail" id="mail" placeholder="E-mail" />
+              <input
+                class="footer-input"
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="E-mail"
+              />
             </label>
             <button class="button-primary" type="submit">
               Подписаться
@@ -456,7 +462,7 @@
               <use href="./images/sprite.svg#person-black "></use>
             </svg>
             <label for="name">Имя</label>
-            <input type="text" name="name" id="name" />
+            <input class="modal-input" type="text" name="name" id="name" />
           </div>
 
           <div class="form-field">
@@ -464,7 +470,7 @@
               <use href="./images/sprite.svg#phone-black "></use>
             </svg>
             <label for="tel">Телефон</label>
-            <input type="tel" name="tel" id="tel" />
+            <input class="modal-input" type="tel" name="tel" id="tel" />
           </div>
 
           <div class="form-field">
@@ -472,7 +478,7 @@
               <use href="./images/sprite.svg#email-black "></use>
             </svg>
             <label for="email">Почта</label>
-            <input type="email" name="mail" id="email" />
+            <input class="modal-input" type="email" name="mail" id="email" />
           </div>
 
           <div class="form-field">

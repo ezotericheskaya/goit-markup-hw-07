@@ -6,7 +6,6 @@
   --accent-button-color: #2196f3;
 }
 
-*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -355,7 +354,7 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
+/* 
 .features-portfolio {
   margin-top: 0;
   margin-bottom: 0;
@@ -364,7 +363,8 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--tittle-text-color);
-}
+} */
+
 .text-portfolio {
   margin-top: 4px;
   margin-bottom: 0;
